@@ -1,2 +1,2 @@
-# quizapp
-this is my quizapp
+# QuizApp
+https://muellerjustin.github.io/quizapp/
