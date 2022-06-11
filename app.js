@@ -293,9 +293,9 @@ const fragen = [
     {
         question: "Was ist H2O?",
         answers: [
-            { text: "Wasserstoff", correct: false},
-            { text: "Sauerstoff", correct: true},
             { text: "Alkohol", correct: false},
+            { text: "Sauerstoff", correct: false},
+            { text: "Wasser", correct: true},
             { text: "Magnesium", correct: false},
     
         ]
