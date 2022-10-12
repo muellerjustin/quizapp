@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;    
+}
+
+.container {
+    background-color: #653EA0;
+}
+
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: rgb(71, 152, 71) !important;
+    color: white;
+}
+
+.false {
+    background-color: rgb(217, 45, 45) !important;
+    color: white;
+}
+
+.blurred {
+    background-color: #6f4ca0 !important;
+}
+
+.wrapper {
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding-top: 8%;
+    height: 100vh;
+}
+
+.light_icon {
+    height: 4rem;
+    color: white;
+}
+
+#heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+#score {
+    font-size: 3rem;;
+}
+
+#subheading {
+    font-size: 1.7rem;
+}
+
+
+#start {
+    background-color: #52298A;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+
+}
+
+#start:hover {
+    background-color: #48227d; 
+}
+
+#questionwrapper {
+    margin-top: 2.7rem;
+}
+
+#question_element {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#antwort_container {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-gap: 0.5rem;
+    justify-content: center;
+}
+
+.answer_btn {
+    background-color: #52298A;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.answer_btn:hover {
+    background-color: #48227d;
+ 
+}
+
+#weiter_btn {
+    margin-top: 1rem;
+    background-color: #52298A;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;  
+}
+
+#weiter_btn:hover {
+    background-color: #48227d;
+}
+
+.neustart {
+    margin-top: 1rem;;
+    background-color: #52298A;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.neustart:hover {
+    background-color: #48227d;
+}
+
+
+
+@media only screen and (max-width: 1340px) {
+    .wrapper {
+        color: white;
+        width: 66%;
+        margin-left: 17%;
+        margin-right: 17%;
+        text-align: center;
+        padding-top: 8%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .wrapper {
+        color: white;
+        width: 66%;
+        margin-left: 17%;
+        margin-right: 17%;
+        text-align: center;
+        padding-top: 20%;
+        height: 100vh;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    #heading {
+        font-size: 2rem;
+    }
+    
+    #score {
+        font-size: 2rem;;
+    }
+    
+    #subheading {
+        font-size: 1rem;
+    }
+    
+    #start {
+        background-color: #52298A;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    
+    }
+    
+    #question_element {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .answer_btn {
+        background-color: #52298A;
+        color: white;
+        font-size: 0.8rem;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    
+    #weiter_btn {
+        margin-top: 1rem;
+        background-color: #52298A;
+        color: white;
+        font-size: 0.8rem;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;  
+    }
+    
+    .neustart {
+        margin-top: 1rem;;
+        background-color: #52298A;
+        color: white;
+        font-size: 0.8rem;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+}
