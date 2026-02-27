@@ -7,4 +7,4 @@ Visit website here: https://muellerjustin.github.io/quizapp/
 <img width="1236" height="540" alt="quizApp1" src="https://github.com/user-attachments/assets/cd1b0d56-c4d0-4479-9dbd-b5496277d29d" />
 
 
-<img width="1147" height="524" alt="quizApp2" src="https://github.com/user-attachments/assets/c62b98f1-cae7-4abf-abed-5611827322ec" />
+<img width="1125" height="634" alt="image" src="https://github.com/user-attachments/assets/759bd10f-9cd9-4fcd-8b8b-6f3291fd3fb7" />
